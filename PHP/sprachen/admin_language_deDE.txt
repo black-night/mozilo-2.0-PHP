@@ -1,0 +1,3 @@
+plugin_name              = <b>PHP-Code ausführen</b>
+plugin_desc              = Führt beliebigen PHP-Code aus.<br /><br /><span style=\"font-weight:bold;\">Nutzung:</span><br />{PHP|phpCode} die von moziloCMS verwendeten Sonderzeichen müssen dabei mit einem ^ markiert werden. Also ^{ ^} ^| ... 
+plugin_mit_param         = PHP-Code der ausgeführt werden soll
