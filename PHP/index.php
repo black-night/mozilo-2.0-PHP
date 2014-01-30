@@ -17,7 +17,8 @@ class PHP extends Plugin {
         $value = $specialchars->getHtmlEntityDecode($value);
         $value = str_replace("-html_br~","",$value);
         $value = str_replace("-html_nbsp~"," ",$value);
-        $value = str_replace(array("-html_lt~","-html_gt~"),array("&lt;","&gt;"),$value);        
+        $value = str_replace(array("-html_lt~","-html_gt~"),array("&lt;","&gt;"),$value);
+        $value = str_replace("^", "", $value);
         // Code ausführen und Ausgabe zurückgeben
         ob_start();
         eval($value);
