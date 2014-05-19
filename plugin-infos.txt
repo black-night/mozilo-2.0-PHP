@@ -4,7 +4,7 @@ Angaben zum Plugin:
 	
 * Plugin: PHP
 * Author: black-night - Daniel Neef Orginal von Arvid Zimmermann
-* Version: 2 - 2014-01-30
+* Version: 3 - 2014-05-19
 * Lizenz: 
       * LGPL 3.0 (http://www.gnu.org/licenses/lgpl) (Deutsch: http://www.gnu.de/documents/lgpl-3.0.de.html)
    

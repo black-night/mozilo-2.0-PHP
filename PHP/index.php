@@ -37,7 +37,7 @@ class PHP extends Plugin {
          $this->lang_admin = new Language($this->PLUGIN_SELF_DIR."sprachen/admin_language_".$ADMIN_CONF->get("language").".txt");
         $info = array(
             // Plugin-Name (wird in der Pluginübersicht im Adminbereich angezeigt)
-             $this->lang_admin->getLanguageValue("plugin_name")." Revision: 2",
+             $this->lang_admin->getLanguageValue("plugin_name")." Revision: 3",
             // CMS-Version
             "2.0",
             // Kurzbeschreibung
